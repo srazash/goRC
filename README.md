@@ -1,6 +1,6 @@
 # gorc: An IRC-like chat app built in Go
 
-```
+```text
 ░█▀▀▀░▄▀▀▄░█▀▀▄░█▀▄░
 ░█░▀▄░█░░█░█▄▄▀░█░░░
 ░▀▀▀▀░░▀▀░░▀░▀▀░▀▀▀░
@@ -8,7 +8,9 @@
 
 An IRC-like chat app built in Go that is small, simple and secure. And yes, it's pronounced "gork".
 
-## Project goals:
+![Follow the white rabbit.](https://c.tenor.com/IcbRC3jvTkcAAAAC/rabbit-follow-the-white-rabbit.gif)
+
+## Project goals
 
 - [x] Minimalist TUI interface 👨‍💻
 - [x] Single binary for both client and server 🖥️
@@ -19,7 +21,7 @@ An IRC-like chat app built in Go that is small, simple and secure. And yes, it's
 - [ ] Messages are in memory only and purged when the server stops 🧹
 - [ ] ｂｌａｚｉｎｇｌｙ ｆａｓｔ 🔥
 
-## How gorc will work:
+## How gorc will work
 
 Launch in client-mode:
 
