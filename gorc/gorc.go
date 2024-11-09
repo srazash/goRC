@@ -5,7 +5,10 @@ import (
 	"os"
 )
 
-const appLogo = "\n ░█▀▀▀░▄▀▀▄░█▀▀▄░█▀▄░ \n ░█░▀▄░█░░█░█▄▄▀░█░░░ \n ░▀▀▀▀░░▀▀░░▀░▀▀░▀▀▀░ \n\n"
+const appLogo = `░█▀▀▀░▄▀▀▄░█▀▀▄░█▀▄░ 
+░█░▀▄░█░░█░█▄▄▀░█░░░ 
+░▀▀▀▀░░▀▀░░▀░▀▀░▀▀▀░ 
+An AIO IRC-like App!`
 const appName = "gorc"
 const appVers = "0.0.1"
 
@@ -27,6 +30,7 @@ func Run() {
 
 func AppInfo() {
 	fmt.Print(appLogo)
+	fmt.Print("\n")
 	ShortVersion()
 	fmt.Print("\n")
 }

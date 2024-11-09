@@ -1,5 +1,9 @@
 package user
 
+import (
+	"github.com/beevik/guid"
+)
+
 type UserType int
 
 const (
@@ -17,7 +21,7 @@ const (
 )
 
 type User struct {
-	Id     int
+	Id     guid.Guid
 	Type   UserType
 	Name   string
 	Status UserStatus
