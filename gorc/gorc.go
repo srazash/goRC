@@ -7,8 +7,7 @@ import (
 
 const appLogo = `░█▀▀▀░▄▀▀▄░█▀▀▄░█▀▄░ 
 ░█░▀▄░█░░█░█▄▄▀░█░░░ 
-░▀▀▀▀░░▀▀░░▀░▀▀░▀▀▀░ 
-An AIO IRC-like App!`
+░▀▀▀▀░░▀▀░░▀░▀▀░▀▀▀░ `
 const appName = "gorc"
 const appVers = "0.0.1"
 
