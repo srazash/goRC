@@ -26,3 +26,12 @@ type User struct {
 	Name   string
 	Status UserStatus
 }
+
+func New(usertype UserType, name string) *User {
+	return &User{
+		Id:     *guid.New(),
+		Type:   usertype,
+		Name:   name,
+		Status: Offline,
+	}
+}
