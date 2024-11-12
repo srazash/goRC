@@ -27,11 +27,11 @@ type User struct {
 	Status UserStatus
 }
 
-func New(usertype UserType, name string) *User {
+func New(usertype UserType) *User {
 	return &User{
 		Id:     *guid.New(),
 		Type:   usertype,
-		Name:   name,
+		Name:   Randonym(),
 		Status: Offline,
 	}
 }

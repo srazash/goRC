@@ -15,13 +15,13 @@ type Message struct {
 	Message string
 }
 
-func New(from user.User, message string) *Message {
-	return &Message{
+func New(from user.User, message string) {
+	MESSAGES = append(MESSAGES, Message{
 		Id:      *guid.New(),
 		From:    from,
 		Posted:  time.Now(),
 		Message: message,
-	}
+	})
 }
 
 func (m *Message) String() string {
